@@ -1,0 +1,57 @@
+<html>
+<head>
+<title>CONTACT ME</title>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+</head>
+<body>
+<div align="center">
+<nav class="navbar navbar-dark bg-dark sticky-top" style="background-color: #e3f2fd;">
+<div class="container">
+<a class="navbar-brand" href="contactme.htm"><img src="menu.png" alt="menu" height="50" width="140"></a>
+
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="navbarResponsive">
+<ul class="navbar-nav ml-auto">
+<li class="nav-item active"><a class="nav-link" href="index.htm">Homepage</a></li>
+<li class="nav-item"><a class="nav-link" href="films.htm">Films</a></li>
+<li class="nav-item"><a class="nav-link" href="books.htm">Books</a></li>
+<li class="nav-item"><a class="nav-link" href="musics.htm">Musics</a></li>
+<li class="nav-item"><a class="nav-link" href="usefullinks.htm">Useful Links</a></li>
+<li class="nav-item"><a class="nav-link" href="contactme.htm">Contact Me!</a></li>
+<li class="nav-item"><a class="nav-link" href="registration.htm">Registration</a></li>
+</ul>
+    </div>
+  </div>
+</nav>
+<hr>
+<form>
+<h2>CONTACT ME</h2>
+<p>Name, Surname : <input type="text" name="name"></p>
+<p>E-mail: <input type="email" name="mail"></p>
+<p>Telephone: <input type="text" patter="[0-9][0-11]" placeholder="Max length is 11" name="phone"></p>
+<p>Issue: <input type="text" name="issue"></p>
+<p>Message: <textarea rows="6" cols="60" name="message"></textarea></p>
+<button type="button" class="btn btn-secondary" onclick="myFuction()">Send It!</button>
+<!--<button onclick="myFuction()">Send It!</button>-->
+
+<script>
+function myFuction() {
+alert("Your message is sent.");
+}
+</script>
+</form>
+<br>
+<h3>OR</h3>
+<p>If you want to contact me,please click to the adress belox: </p>
+<a href="mailto:@yildizisleyen@gmail.com"><img src="mail.png" height="40" width="40"></a>
+<br>
+<a href="index.htm"><img src="https://png.pngtree.com/element_our/sm/20180620/sm_5b29c1a236a02.png" height="80" width="80"</a>
+
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

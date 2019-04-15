@@ -1,0 +1,95 @@
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<title>My Web Site</title>
+
+
+</head>
+<body>
+<div align="center">
+<nav class="navbar navbar-dark bg-dark sticky-top" style="background-color: #e3f2fd;">
+<div class="container">
+<a class="navbar-brand" href="index.htm"><img src="menu.png" alt="menu" height="50" width="140"></a>
+
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="navbarResponsive">
+<ul class="navbar-nav ml-auto">
+<li class="nav-item active"><a class="nav-link" href="index.htm">Homepage</a></li>
+<li class="nav-item"><a class="nav-link" href="films.htm">Films</a></li>
+<li class="nav-item"><a class="nav-link" href="books.htm">Books</a></li>
+<li class="nav-item"><a class="nav-link" href="musics.htm">Musics</a></li>
+<li class="nav-item"><a class="nav-link" href="usefullinks.htm">Useful Links</a></li>
+<li class="nav-item"><a class="nav-link" href="contactme.htm">Contact Me!</a></li>
+<li class="nav-item"><a class="nav-link" href="registration.htm">Registration</a></li>
+</ul>
+    </div>
+  </div>
+</nav>
+
+<br>
+<!--<img src="ww2.jpg" alt="Welcome" height="600" width="700">Eskisi-->
+<!--images part-->
+<div id="slides" class="carousel slide" data-ride="carousel">
+<ol class="carousel-indicators">
+    <li data-target="#slides" data-slide-to="0" class="active"></li>
+	<li data-target="#slides" data-slide-to="1"></li>
+	<li data-target="#slides" data-slide-to="2"></li>
+</ol>
+<div class="carousel-inner">
+   <div class="carousel-item active">
+   <img src="real.jpg" alt="Welcome" height="400" width="700"></div>
+   
+   <div class="carousel-item">
+   <img src="play.jpg" alt="Welcome" height="400" width="700"></div>
+   
+   <div class="carousel-item">
+   <img src="comp.jpg" alt="Welcome" height="400" width="700"></div>
+
+</div>
+
+</div>
+
+
+<form>
+
+<div class="col-12">
+<h4 class="display-4"> SIGN IN! </h4>
+<p>Username: <input type="text" name="username"></p>
+<p>Password: <input type="password"></p>
+<button type="button" class="btn btn-secondary">Sing In</button>
+<p>You don't have an account? Click it!</p>
+<button type="button" class="btn btn-secondary" onclick="window.location.href='registration.htm'">Register!</button>
+
+</div>
+
+</form>
+
+<!--<p> <strong> ABOUT ME </strong> </p>
+<p> <strong> My name is Yildiz. But you can call me Yuki. I'm interested in theatre. Hope that you like my page! </strong> </p>
+<p> <small> If you want to contect me, please click <a href="contactme.htm">page! </a> </small> </p>-->
+<div class="container">
+<div class="row">
+<div class="col-12">
+ <h1 class="display-12"> ABOUT ME </h1>
+ </div>
+ <hr>
+<div class="col-12">
+<p class="lead"><i>Welcome! My name is Yildiz but you can call me Yuki. I'm interested in theatre. Hope that you like my page!</i></p>
+ 
+
+</div>
+</div>
+
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<html>
+<head>
+<title>REGISTRATION</title>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+<style>
+ul.a{
+     list-style-type:disc;
+}
+</style>
+</head>
+<body>
+<div align="center">
+<nav class="navbar navbar-dark bg-dark sticky-top" style="background-color: #e3f2fd;">
+<div class="container">
+<a class="navbar-brand" href="registration.htm"><img src="menu.png" alt="menu" height="50" width="140"></a>
+
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="navbarResponsive">
+<ul class="navbar-nav ml-auto">
+<li class="nav-item active"><a class="nav-link" href="index.htm">Homepage</a></li>
+<li class="nav-item"><a class="nav-link" href="films.htm">Films</a></li>
+<li class="nav-item"><a class="nav-link" href="books.htm">Books</a></li>
+<li class="nav-item"><a class="nav-link" href="musics.htm">Musics</a></li>
+<li class="nav-item"><a class="nav-link" href="usefullinks.htm">Useful Links</a></li>
+<li class="nav-item"><a class="nav-link" href="contactme.htm">Contact Me!</a></li>
+<li class="nav-item"><a class="nav-link" href="registration.htm">Registration</a></li>
+</ul>
+    </div>
+  </div>
+</nav>
+<hr>
+
+<form>
+<h2>REGISTRATION</h2>
+<p>Name (Middle Name) Surname <input type="text" name="name"></p>
+<p>Password <input type="password" name="password"></p>
+<p>E-mail <input type="email" name="mail" placeholder="xyz@abc.com"></p>
+<p>Date of Birth <input type="date" name="date"></p>
+<p>Gender
+<select>
+<option>Female</option>
+<option>Male</option>
+<option>Other</option>
+</select>
+</p>
+<p>Upload Your Photo <input type="file" name="photo"></p>
+<p>About Me <textarea rows="10" cols="60" name="message"></textarea></p>
+<br>
+            
+<p><b>Mark Your Interests</b></p>
+<hr>
+<ul class:"a">
+<li>Autos and Vehicles____ <input type="checkbox"></li>
+<li>Comedy________________ <input type="checkbox"></li>
+<li>Education_____________ <input type="checkbox"></li>
+<li>Films and Animation___ <input type="checkbox"></li>
+<li>Gaming________________ <input type="checkbox"></li>
+<li>Music_________________ <input type="checkbox"></li>
+<li>Politics______________ <input type="checkbox"> </li>
+<li>Pets and Animals______ <input type="checkbox"></li>
+<li>Science and Technology <input type="checkbox"> </li>
+<li>Sports________________ <input type="checkbox"> </li>
+<button type="button" class="btn btn-primary btn-sm" onclick="myFunction()">Submit</button>
+<script>
+function myFunction() {
+alert("Thanks for registration!");
+}
+</script>
+<button type="button" class="btn btn-secondary btn-sm">Reset</button>
+</form>
+<a href="index.htm"><img src="https://png.pngtree.com/element_our/sm/20180620/sm_5b29c1a236a02.png" height="80" width="80"</a>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+*{
+box-sizing: border-box;}
+form{
+border:5px inset grey;
+border-radius:8px;
+
+margin-top:5px;
+}
+h1{
+	border:5px dotted #6fafbc;
+	border-radius:5px;
+}
+.header{
+	border:5px solid #819b9e;
+	margin:5px 5px 5px 5px;
+}
+article{
+	border:5px solid #819b9e;
+	margin-bottom:5px;
+}
+#huse{
+	background-color:blue;
+}
+.mov{
+	border:5px solid #819b9e;
+	margin-bottom:5px;
+}
+	
